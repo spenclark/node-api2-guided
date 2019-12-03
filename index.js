@@ -4,6 +4,7 @@ const Hubs = require('./hubs/hubs-model.js');
 
 const server = express();
 
+// work with express and json
 server.use(express.json());
 
 server.get('/', (req, res) => {
